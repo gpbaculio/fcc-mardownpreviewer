@@ -12,6 +12,23 @@ html, body {
 .editor { 
  font-size: 24px;
 }
-.mockdown-output {
+.editor-container { 
+  border-radius: 0;
+}
+#editor {
+  border-radius: 0
+}
+.editor-header { 
+  border-radius: 0;
+}
+.mockdown-output { 
+  border-right: 1px solid #ced4da;
+  border-bottom: 1px solid #ced4da;
+  border-left: 1px solid #ced4da;
+  padding: .375rem .75rem;
+}
+.mockdown-output-title {
   background-color: #E9ECEF;
+  font-size: 24px;
+  padding: .375rem .75rem;
 }
